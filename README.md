@@ -2,10 +2,6 @@
 
 It is a site for recruitment purposes. 
 
-## Documentation
-
-To find out how to use this library follow [Documentation](http://link-to-documentation).
-
 ## Features
 
 * Simple form with validation in HTML5

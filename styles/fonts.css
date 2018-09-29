@@ -1,0 +1,51 @@
+body{
+    font-family: 'Montserrat', sans-serif !important;
+}
+h1{
+    font-size: 2vh;
+}
+.font-upper{
+    color: #fff;
+    font-size: 3vw;
+    font-weight: 600;
+    line-height: 3.8vw;
+    margin-bottom: 2rem;
+    margin-top:4rem;
+}
+.font-under{
+    margin-bottom: 4rem;
+    font-size: 1vw;
+    color: cornflowerblue;
+    padding-bottom:2rem;
+}
+.project-content p{
+    font-size:1vw;
+}
+.column-title>p{
+    text-align:left;
+    font-size:0.8vw;
+}
+.p-bigger{
+    font-size:1vw;
+}
+.p-smaller{
+    font-size:0.8vw;
+}
+.col-lg-3>p{
+    line-height:1vw !important;
+    font-size: 0.8vw !important;
+    font-weight:600;
+    color:white !important;
+}
+.form-header>h2{
+    color:white;
+    font-weight: 600;
+    padding-bottom:3vw;
+}
+a.link:hover{
+    text-decoration: none;
+}
+
+a.link{
+    color:white !important;
+}

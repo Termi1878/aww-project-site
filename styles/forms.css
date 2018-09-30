@@ -26,11 +26,14 @@
         display: -webkit-inline-box !important;
         text-transform: uppercase;
     }
+    .input-mail + .input-topic{
+        margin-left:3vw !important;
+    }
     .label-style{
         position: absolute !important;
         color:white !important;
         font-size:0.8vw !important;
-        left: 0 !important;
+        left: 0;
         font-weight: 600 !important;
         text-transform: uppercase;
         opacity: 0.5;
@@ -56,3 +59,199 @@
         color:white !important;
       }
 }
+@media (max-width: 767px){
+    .form-header{
+        padding-left:10vw !important;
+    }
+    .form__row{
+        position:relative;
+        justify-content:space-between;
+        width: 55vw;
+    }
+    .form-style{
+        background: 0 0 !important;
+        border: 0 !important;
+        border-bottom: 1px solid #fff !important;
+        font-weight:500 !important;
+        line-height:1vw !important;
+        outline:none !important;
+        padding: 0 !important;
+        width:100% !important;
+        color:white !important;
+        font-size:2vw !important;
+        border-radius: 0 !important;
+        text-transform: uppercase;
+        margin-top:2vw;
+    }
+    .form-span{
+        line-height:10vw;
+    }
+    .label-style{
+        position: absolute !important;
+        color:white !important;
+        font-size:2vw !important;
+        left: 0 !important;
+        font-weight: 600 !important;
+        text-transform: uppercase;
+        opacity: 0.5;
+        margin-top:2vw;
+    }
+    .form-control-placeholder {
+        position: absolute;
+        top: 0;
+        padding:0.5vw 0;
+        transition: all 200ms;
+      }
+      .form-control:focus + .form-control-placeholder,
+      .form-control:valid + .form-control-placeholder +.form-control-placeholder:after {
+        font-size: 25%;
+        transform: translate3d(0, -25%, 0);
+        opacity: 1;
+        border: 0 !important;
+      }
+    .mail{
+    left:0 !important;
+    padding-top:3vw !important;
+    }
+    .number{
+    padding-bottom:2vw;
+    }
+
+      .copyright{
+        line-height:2vw !important;
+        font-size: 2vw !important;
+        font-weight:600;
+        color:white !important;
+      }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .form-header{
+        padding-left:10vw !important;
+    }
+    .form__row{
+        position:relative;
+        justify-content:space-between;
+        width: 55vw;
+    }
+    .form-style{
+        background: 0 0 !important;
+        border: 0 !important;
+        border-bottom: 1px solid #fff !important;
+        font-weight:500 !important;
+        line-height:1vw !important;
+        outline:none !important;
+        padding: 0 !important;
+        width:100% !important;
+        color:white !important;
+        font-size:2vw !important;
+        border-radius: 0 !important;
+        text-transform: uppercase;
+        margin-top:2vw;
+    }
+    .form-span{
+        line-height:10vw;
+    }
+    .label-style{
+        position: absolute !important;
+        color:white !important;
+        font-size:2vw !important;
+        left: 0 !important;
+        font-weight: 600 !important;
+        text-transform: uppercase;
+        opacity: 0.5;
+        margin-top:2vw;
+    }
+    .form-control-placeholder {
+        position: absolute;
+        top: 0;
+        padding:0.5vw 0;
+        transition: all 200ms;
+      }
+      .form-control:focus + .form-control-placeholder,
+      .form-control:valid + .form-control-placeholder +.form-control-placeholder:after {
+        font-size: 25%;
+        transform: translate3d(0, -25%, 0);
+        opacity: 1;
+        border: 0 !important;
+      }
+    .mail{
+    left:0 !important;
+    padding-top:3vw !important;
+    }
+    .number{
+    padding-bottom:2vw;
+    }
+
+      .copyright{
+        line-height:2vw !important;
+        font-size: 1.5vw !important;
+        font-weight:600;
+        color:white !important;
+      }
+}
+@media (min-width: 992px) and (max-width:1279px)
+{
+    .form-header{
+        padding-left:10vw !important;
+    }
+    .form__row{
+        position:relative;
+        justify-content:space-between;
+        width: 40vw;
+    }
+    .form-style{
+        background: 0 0 !important;
+        border: 0 !important;
+        border-bottom: 1px solid #fff !important;
+        font-weight:500 !important;
+        line-height:1vw !important;
+        outline:none !important;
+        padding: 0 !important;
+        width:100% !important;
+        color:white !important;
+        font-size:2vw !important;
+        border-radius: 0 !important;
+        text-transform: uppercase;
+        margin-top:2vw;
+    }
+    .form-span{
+        line-height:10vw;
+    }
+    .label-style{
+        position: absolute !important;
+        color:white !important;
+        font-size:1.5vw !important;
+        left: 0 !important;
+        font-weight: 600 !important;
+        text-transform: uppercase;
+        opacity: 0.5;
+        margin-top:2vw;
+    }
+    .form-control-placeholder {
+        position: absolute;
+        top: 0;
+        padding:0.5vw 0;
+        transition: all 200ms;
+      }
+      .form-control:focus + .form-control-placeholder,
+      .form-control:valid + .form-control-placeholder +.form-control-placeholder:after {
+        font-size: 25%;
+        transform: translate3d(0, -25%, 0);
+        opacity: 1;
+        border: 0 !important;
+      }
+    .mail{
+    left:0 !important;
+    padding-top:3vw !important;
+    }
+    .number{
+    padding-bottom:2vw;
+    }
+
+      .copyright{
+        line-height:2vw !important;
+        font-size: 1.5vw !important;
+        font-weight:600;
+        color:white !important;
+      } 
+    } 
